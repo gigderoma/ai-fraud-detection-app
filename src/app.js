@@ -28,7 +28,7 @@ const App = () => {
   const [onlineTransaction, setOnlineTransaction] = useState(false);
   const [message, setMessage] = useState('');
 
-  const endpoint = "https://ai-fraud-detection-demo-api-ymaheshw-dev.apps.sandbox-m2.ll9k.p1.openshiftapps.com";
+  const endpoint = "http://ai-serve-model-mediator.frauddetection-gig.svc.cluster.local";
 
   const handleSubmit = async (event) => {
     event.preventDefault();
