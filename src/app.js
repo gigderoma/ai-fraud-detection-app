@@ -28,7 +28,7 @@ const App = () => {
   const [onlineTransaction, setOnlineTransaction] = useState(false);
   const [message, setMessage] = useState('');
 
-  const endpoint = "http://ai-serve-model-mediator.frauddetection-gig.svc.cluster.local:5000";
+  const endpoint = "http://ai-serve-model-mediator.frauddetection-gig.svc.cluster.local:8080";
 
   const handleSubmit = async (event) => {
     event.preventDefault();
