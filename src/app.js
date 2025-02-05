@@ -48,6 +48,7 @@ const App = () => {
       setMessage(response.data.message);
     } catch (error) {
       console.error('Error submitting form:', error);
+      console.log('Error submitting form:', error);
       setMessage('Error: Could not determine the transaction status.');
     }
     setIsLoading(false);
