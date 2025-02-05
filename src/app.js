@@ -49,7 +49,7 @@ const App = () => {
     } catch (error) {
       console.error('Error submitting form:', error);
       console.log('Error submitting form:', error);
-      setMessage('Error: Could not determine the transaction status.');
+      setMessage('Error: Could not determine the transaction status.'+ error);
     }
     setIsLoading(false);
   };
